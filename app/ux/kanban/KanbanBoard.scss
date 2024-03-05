@@ -1,0 +1,112 @@
+.board-container {
+    background-color: #eee;
+}
+
+.board-column-container {
+    margin: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+/* task-selector debe coincidir con el nombre del itemSelector del dataview */
+.board-column-container .task-selector {
+    position: relative;
+    border: 1px solid #ccc;
+    margin: 8px;
+    border-radius: 8px;
+    user-select: none;
+    cursor:grab !important;
+}
+
+.board-column-container .task-selector:hover  {
+    background-color: #eee;
+}
+
+.board-column-container .task-selector .title {
+    background-color: #ccc;
+    font-weight: bold;;
+    padding: 8px 16px;
+    border-radius: 8px 8px 0px 0px;
+}
+.board-column-container .task-selector .content {
+    position: relative;
+}
+
+.board-column-container .task-selector .content .text {
+    display: flex;
+    position: relative;
+    padding: 8px 8px 8px 48px;
+    min-height: 54px;
+    align-items: center;
+}
+
+.board-column-container .task-selector .content .icon {
+    position: absolute;
+    top:50%;
+    transform: translate(0%,-50%);
+    left:8px;
+    width:32px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.board-column-container .x-panel-header-default .x-title-text {
+    color: #333;
+}
+
+.board-column-container.board-column-title-red .x-panel-header-default {
+    background-color: #c33;
+}
+
+.board-column-container.board-column-title-yellow .x-panel-header-default {
+    background-color: rgb(253, 253, 151);
+}
+
+.board-column-container.board-column-title-blue .x-panel-header-default {
+    background-color: rgb(138, 138, 236);
+}
+
+.board-column-container.board-column-title-green .x-panel-header-default {
+    background-color: rgb(170, 238, 170);
+}
+
+.board-column-container.board-column-title-cyan .x-panel-header-default {
+    background-color: rgb(179, 224, 224);
+}
+
+.board-column-container.board-column-title-pink .x-panel-header-default {
+    background-color: rgb(204, 159, 204);
+}
+
+.board-column-container.board-column-title-orange .x-panel-header-default {
+    background-color: rgb(224, 184, 119);
+}
+
+.board-column-container.board-column-title-purple .x-panel-header-default {
+    background-color: rgb(181, 145, 199);
+}
+
+.board-column-container.board-column-title-white .x-panel-header-default {
+    background-color: #fff;
+}
+
+.board-column-container.board-column-title-gray .x-panel-header-default {
+    background-color: #ccc;
+}
+
+.board-column-container.board-column-title-black .x-panel-header-default {
+    background-color: #000;
+    color: #fff;
+}
+
+.board-column-container.board-column-title-dark-gray .x-panel-header-default {
+    background-color: #333;
+    color: #fff;
+}

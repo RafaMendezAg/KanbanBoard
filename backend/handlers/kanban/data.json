@@ -1,0 +1,22 @@
+{
+    "success": true,
+    "data": [
+        {
+            "active": 1,
+            "column_id": 2,
+            "title": "Juan",
+            "id": 3,
+            "icon": "user-secret",
+            "content": "No disponible"
+        },
+        {
+            "active": 1,
+            "column_id": 2,
+            "title": "Felipe",
+            "id": 5,
+            "icon": "users",
+            "content": "Buscar CV"
+        }
+    ],
+    "count": 2
+}
